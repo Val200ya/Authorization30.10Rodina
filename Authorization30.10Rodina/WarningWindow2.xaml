@@ -1,0 +1,18 @@
+﻿<Window x:Class="Authorization30._10Rodina.WarningWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Authorization30._10Rodina"
+        mc:Ignorable="d"
+        Title="WarningWindow2" Height="350" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="44px">Введённая почта уже есть в базе.<LineBreak/> Введите другую и попробуйте<LineBreak/> ещё раз.</TextBlock>
+        <Button x:Name="GoBackBtn" Grid.Row="1" Height="70px" Width="400px" FontSize="40">Закрыть</Button>
+    </Grid>
+</Window>
